@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 here = os.path.abspath(os.path.dirname(__file__))
 
 try:
-    import ortheme.__version__ as version
+    import orgtheme.__version__ as version
 except ImportError:
     # If we get an import error, find the version string manually
     version = "unknown"
